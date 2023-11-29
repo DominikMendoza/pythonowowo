@@ -12,4 +12,4 @@ def say_hello():
     return 'Hello, World!'
 
 if __name__ == '__main__':
-    app.run(debug=True, port=8080)
+    app.run(debug=False, port=80)
